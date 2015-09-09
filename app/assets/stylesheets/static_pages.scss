@@ -1,0 +1,132 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body, html {
+  height: 100%;
+}
+
+#wrapper {
+   height: 100%;
+  .content {
+    min-height: 500px;
+  }
+
+  .footer {
+    height: 25px;
+    border-top: 1px solid #E1E1E1;
+    padding-top: 10px;
+    font-weight: bold;
+  }
+}
+
+.navbar-left {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+thead {
+  background-color: #E1E1E1;
+}
+
+.width-flash {
+  padding: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1em;
+  color: #C1C1C1;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding: 5px;
+  font-weight: bold;
+  &:hover {
+    color: #E1E1E1;
+    text-decoration: none;
+  }
+}
+
+/*
+ * Application level styles
+ * (things that dont make sense in a toolkit :)
+ * copyright @colossal 2015
+ */
+
+/* docs overrides */
+// .a {
+//   background-color: #fff;
+//   border-color: #d3e0e9;
+// }
+
+
+// /* general overrides */
+// .b .c {
+//   line-height: 1.4;
+// }
+// .d .close {
+//   margin-top: 4px;
+// }
+
+
+// /* navbar */
+// .app-navbar {
+//   font-weight: 400;
+//   -webkit-font-smoothing: antialiased;
+// }
+// .app-navbar .form-control {
+//   box-shadow: none;
+// }
+// .app-navbar .e img {
+//   width: 85px;
+// }
+// .app-navbar .f {
+//   max-height: inherit;
+// }
+// .app-navbar .f:after {
+//   height: 100vh;
+// }
+// .app-navbar .form-control {
+//   border-color: #1C73A5;
+// }
+// .g {
+//   margin-left: -12px;
+//   padding-bottom: 10px !important;
+// }
+// .g .h:before {
+//   font-size: 20px;
+// }
+// @media (min-width: 768px) {
+//   .app-navbar .f:after {
+//     height: auto;
+//   }
+// }
+// @media (max-width: 768px) {
+//   .i {
+//     margin-top: -1px;
+//   }
+// }
+
+
+// /* misc */
+// .j {
+//   max-width: 280px;
+//   margin-top: -60px;
+// }
+// .k {
+//   margin-right: 10px;
+// }
+// .l {
+//   width: 40%;
+//   display: inline-block;
+// }
+// .l img {
+//   width: 100%;
+// }

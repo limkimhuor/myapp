@@ -21,3 +21,30 @@
 
 en:
   hello: "Hello world"
+  titles:
+    header: "my App"
+  flashs:
+    messages:
+      created: "%{model_name} was created successfully!"
+      not_created: "%{model_name} couldn't be created!"
+      deleted: "%{model_name} was deleted successfully!"
+      not_deleted: "%{model_name} couldn't be deleted!"
+      updated: "%{model_name} was updated successfully!"
+      not_updated: "%{model_name} couldn't be updated"
+      created: "%{model_name} was created successfully!"
+      suggested: "%{model_name} was suggested successfully!"
+      submit_success: "Your answer sheet has been submitted"
+      invalid: "There is something wrong. Please try again"
+      question_accepted: "Question has been accepted"
+      question_rejected: "Question has been rejected"
+      create_question: "Question was created successfully"
+      update_question: "Question was updated successfully"
+      exam_create_reject: "%{subject} is in progress. Please complete this before start new one."
+      active_question: "Question #%{question_id} was active successfully!"
+      deactive_question: "Question #%{question_id} was deactive successfully!"
+      multi_active_question: "Questions was active successfully!"
+      multi_deactive_question: "Questions was deactive successfully!"
+      questions_cancel: "Selected Questions was canceled to update successfully!"
+      chatwork_api_key_confirm: "Please fill in your Chatwork API Key."
+  dialogs:
+    delete_dialog: "Are you sure?"

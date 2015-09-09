@@ -1,0 +1,67 @@
+<div class="header">
+  <nav class="ck pd ot app-navbar">
+    <div class="by">
+      <div class="os">
+        <button type="button" class="ov collapsed" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="cv">Toggle navigation</span>
+          <span class="ow"></span>
+          <span class="ow"></span>
+          <span class="ow"></span>
+        </button>
+
+        <%= link_to image_tag("brand-white.png", alt: "brand"), "#", class: "e" %>
+      </div>
+      <div class="f collapse" id="navbar-collapse-main">
+
+          <ul class="nav navbar-nav st">
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="../profile/index.html">Profile</a>
+            </li>
+            <li>
+              <a data-toggle="modal" href="#msgModal">Messages</a>
+            </li>
+            <li>
+              <a href="../docs/index.html">Docs</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav oh ald st">
+            <li class="active">
+              <%#= link_to "Notif<span class="h wr"></span>".html_safe, "#", class:"g" %>
+              <%= link_to 'Log In<span class="icon-social-skype"></span>'.html_safe, "#", class: "g" %>
+            </li>
+            <li>
+              <!-- <button class="cg fm oy ank" data-toggle="popover">
+                <img class="cu" src="/assets/images/avatar-dhg.png">
+              </button> -->
+              <%= link_to image_tag("avatar-dhg.png", class:"cu"), "#", class: "cg fm oy ank", :data => {:toggle => "popover"} %>
+            </li>
+          </ul>
+
+          <form class="ox oh i" role="search">
+            <div class="et">
+              <input type="text" class="form-control" data-action="grow" placeholder="Search">
+            </div>
+          </form>
+
+          <ul class="nav navbar-nav su sv sw">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../profile/index.html">Profile</a></li>
+            <li><a href="../notifications/index.html">Notifications</a></li>
+            <li><a data-toggle="modal" href="#msgModal">Messages</a></li>
+            <li><a href="../docs/index.html">Docs</a></li>
+            <li><a href="#" data-action="growl">Growl</a></li>
+            <li><a href="../login/index.html">Logout</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav hidden">
+            <li><a href="#" data-action="growl">Growl</a></li>
+            <li><a href="../login/index.html">Logout</a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+</div>

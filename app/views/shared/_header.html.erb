@@ -1,0 +1,28 @@
+<div class="header">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-right menu">
+        <li><%= link_to t("static_pages.home"), root_path %></li>
+        <%# if user_signed_in? %>
+          <li><%= link_to "app" , "#" %></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+              role="button" aria-haspopup="true" aria-expanded="false">
+              <%#= current_user.name %>&nbsp; <span class="caret"></span></a>
+            <ul class="dropdown-menu menu-profile">
+              <li><%= link_to "settings" , "#" %></li>
+              <li><%= link_to "delete ac", "#", method: :delete %></li>
+            </ul>
+          </li>
+        <%# else %>
+          <!-- <li><%#= link_to t("static_pages.signup"), new_user_registration_path %>
+            </a></li>
+          <li><%#= link_to t("static_pages.signin"), user_session_path %></a></li> -->
+        <%# end %>
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+        <li><%= link_to "#{image_tag("logo.png")} ".html_safe + t("static_pages.title"), root_path, id: "logo" %></li>
+      </ul>
+    </div>
+  </nav>
+</div>

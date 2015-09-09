@@ -11,6 +11,13 @@
 // about supported directives.
 //
 //= require jquery
+//= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require_self
+
+$(document).on("ready", function() {
+  setTimeout(function() {
+    $(".hide-flash").fadeOut("normal");
+  }, 3000);
+});
