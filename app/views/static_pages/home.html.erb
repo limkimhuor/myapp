@@ -1,3 +1,7 @@
+<% if user_signed_in? %>
+Make new post
+<% else %>
 <% provide :title, t("static_pages.home") %>
 <p>Welcome to test app</p>
 <%= link_to t("buttons.signup"), new_user_registration_path, class: "btn btn-primary" %>
+<% end %>

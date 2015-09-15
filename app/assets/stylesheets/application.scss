@@ -11,6 +11,8 @@
  * file per style scope.
  *
  *= require static_pages
+ *= require users
+ *= require microposts
  *= require toolkit
  *= require font-awesome
  *= require_self

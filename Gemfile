@@ -9,6 +9,8 @@ gem "turbolinks"
 gem "jbuilder", "~> 2.0"
 gem "sdoc", "~> 0.4.0", group: :doc
 
+gem "kaminari"
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass"
 gem "entypo-rails"
 gem "font-awesome-rails"
@@ -27,4 +29,6 @@ group :development, :test do
   gem "byebug"
   gem "web-console", "~> 2.0"
   gem "spring"
+  gem "faker"
+  gem "factory_girl_rails"
 end
